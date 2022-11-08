@@ -9,7 +9,6 @@ public class Contato {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
     private Long id;
-
     private String nome;
     private String email;
     private String fone;
